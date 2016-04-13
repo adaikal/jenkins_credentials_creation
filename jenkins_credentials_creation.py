@@ -4,7 +4,7 @@ import uuid
 
 random_uuid = uuid.uuid4()
 print random_uuid
-url = "http://192.168.54.214:8080/credential-store/domain/_/createCredentials"
+url = "http://jenkins:8080/credential-store/domain/_/createCredentials"
 
 payload = '''json={
         "": "0", 
